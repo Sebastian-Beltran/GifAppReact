@@ -13,6 +13,8 @@ export const GifExpertApp = () => {
     return (
         <>
             <h2 className="Title">Gift-ExpertApp</h2>
+            <h4 className="Title">Desarrollada por Sebastian Beltran</h4>
+            <br/>
             <AddCategory setCategories={ setCategories }/>
             <hr />
             <ol>
