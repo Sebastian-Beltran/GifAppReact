@@ -17,7 +17,8 @@ export const GifExpertApp = () => {
                 <h2 className="Title">Gift-ExpertApp</h2>
                 <img src={logo} className="App-logo" alt="logo"/>
             </div>
-            <h3>Desarrollada por Sebastian Beltran</h3>
+            <p>Desarrollada por Sebastian Beltran</p>
+            {/* <h3>Desarrollada por Sebastian Beltran</h3> */}
             <br/>
             <AddCategory setCategories={ setCategories }/>
             <hr />
