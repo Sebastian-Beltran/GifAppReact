@@ -14,7 +14,7 @@ export const GifExpertApp = () => {
     return (
         <>
             <div className="Header-Title">
-                <h2 className="Title">Gift-ExpertApp</h2>
+                <h2 className="Title">Gif-ExpertApp</h2>
                 <img src={logo} className="App-logo" alt="logo"/>
             </div>
             <p>Desarrollada por Sebastian Beltran</p>
