@@ -31,6 +31,8 @@ export const AddCategory = ({setCategories}) => {
                 onChange={ handleInputChange }
                 placeholder="Busca tu GIF!"
             />
+            <input type="submit" value="Buscar!"/>
+            
         </form>
     )
 }
