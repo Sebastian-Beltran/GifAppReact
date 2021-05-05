@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 *{
   font-family: Helvetica, Arial;
   
 }
+
 
 body{
   padding: 60px;
@@ -22,16 +24,22 @@ input{
   padding-right: 50px;
   height: 35px;
 }
-input[type="submit"]{
-  margin-top: -2px;
-  margin-left: -80px;
-  width: 9%;
-  background-color: #0069FE;
+button{
+  padding: 10px 20px;
+  margin-left: 5px;
+  background: none;
   color: white;
-  border: none;
-  border-radius: 7px;
+  border: 1px solid #35488b;
+  border-radius: 5px;
   height: 40px;
-  font-family: sans-serif;
+  font-family: "Montserrat";
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+button:hover{
+  background-color: #0069FE;
+  border: none;
 }
 p{
   font-family: sans-serif;
